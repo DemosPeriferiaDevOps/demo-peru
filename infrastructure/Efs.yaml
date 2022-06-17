@@ -25,7 +25,7 @@ Resources:
       CidrBlock: 172.31.3.0/24
       VpcId: !Ref MountTargetVPC
       AvailabilityZone: "us-east-1c"
- 
+
   FileSystemResource:
     Type: 'AWS::EFS::FileSystem'
     Properties:

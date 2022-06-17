@@ -42,6 +42,13 @@ Parameters:
       - t3.micro
     Default: t3.micro
 
+  ClusterSize:
+        Description: How many ECS hosts do you want to initially deploy?
+        Type: Number
+        Default: 3
+
+  
+
 
 
 Metadata:
